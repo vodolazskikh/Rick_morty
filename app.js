@@ -1,6 +1,7 @@
 function Renderimages (data) { // Получение массива ссылок на картинки
  const images = data.results.map(item=> {
 return item.image})
+console.log(data)
 return images;
 }
 async function getCharacters() { // Получение ответа на запрос с учетом введенного значения
