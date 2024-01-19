@@ -86,3 +86,12 @@ border-color:var(--border);
 .body {
   background-color: var(--base-color);
 }
+.highlight {
+  background-color: pink;
+  border: 0.5px solid;
+  border-color: rgba(0, 0, 0, 0.492);
+}
+.size {
+  width: 180px;
+  height: 180px;
+}
