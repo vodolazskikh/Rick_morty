@@ -5,7 +5,8 @@
     },
     "extends": [
         "eslint:recommended",
-        "plugin:react/recommended"
+        "plugin:react/recommended",
+        "prettier"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -16,7 +17,7 @@
     ],
     "rules": {
     "no-var": "error",
-    "semi": "off",
+    "semi": "error",
     "indent": "error",
     "no-multi-spaces": "error",
     "space-in-parens": "error",
