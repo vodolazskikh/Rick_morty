@@ -6,10 +6,11 @@
   "scripts": {
     "eslint": "eslint",
     "prettier": "prettier",
-    "dev":"npx tsc --watch",
-    "build":"npx tsc"
+    "dev": "npx tsc --watch",
+    "build": "esbuild app.ts --outfile=./dist/app.js --bundle --minify --target=chrome58"
   },
   "devDependencies": {
+    "esbuild": "0.20.2",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.1.3",
